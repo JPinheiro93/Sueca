@@ -1,0 +1,428 @@
+{
+	"root":
+		{
+			"classId": 1,
+			"KnowledgeBase":
+				{
+					"Perspective": "P3",
+					"Knowledge":
+						{
+							"SELF":
+								{
+									"Current(PlayerID)": "P2",
+									"Dialogue(Floor)": 3,
+									"Dialogue(Style)": "B",
+									"DialogueState(Board)": "PlaySelf",
+									"My(Id)": 3,
+									"Next(PlayerID)": "P2",
+									"Player(P0)": "Opponent",
+									"Player(P1)": "Partner",
+									"Player(P2)": "Opponent",
+									"Player(P3)": "Partner",
+									"Trick(Increase)": true,
+									"Trick(Score)": 0
+								}
+						}
+				},
+			"BodyName": "Individual",
+			"VoiceName": "male",
+			"EmotionalAppraisalAssetSource": "../..\\Scenarios\\individual.ea",
+			"EmotionalDecisionMakingSource": "../..\\Scenarios\\individual.edm",
+			"SocialImportanceAssetSource": null,
+			"CommeillFautAssetSource": null,
+			"EmotionalState":
+				{
+					"Mood": 0,
+					"initialTick": 0,
+					"EmotionalPool": [],
+					"AppraisalConfiguration":
+						{
+							"HalfLifeDecayConstant": 0.5,
+							"EmotionInfluenceOnMoodFactor": 0.3,
+							"MoodInfluenceOnEmotionFactor": 0.1,
+							"MinimumMoodValueForInfluencingEmotions": 0.5,
+							"EmotionalHalfLifeDecayTime": 15,
+							"MoodHalfLifeDecayTime": 60
+						}
+				},
+			"AutobiographicMemory":
+				{
+					"Tick": 381,
+					"records": [
+						{
+							"classId": 0,
+							"Id": 1,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 293,
+							"Property": "Player(P3)",
+							"NewValue": "Partner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 2,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 293,
+							"Property": "Player(P0)",
+							"NewValue": "Opponent"
+						}, 
+						{
+							"classId": 0,
+							"Id": 3,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 293,
+							"Property": "Player(P1)",
+							"NewValue": "Partner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 4,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 293,
+							"Property": "Player(P2)",
+							"NewValue": "Opponent"
+						}, 
+						{
+							"classId": 0,
+							"Id": 5,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 293,
+							"Property": "Dialogue(Style)",
+							"NewValue": "B"
+						}, 
+						{
+							"classId": 0,
+							"Id": 6,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 293,
+							"Property": "My(Id)",
+							"NewValue": 3
+						}, 
+						{
+							"classId": 0,
+							"Id": 7,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 294,
+							"Property": "DialogueState(Board)",
+							"NewValue": "SessionStart"
+						}, 
+						{
+							"classId": 0,
+							"Id": 8,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 294,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 2
+						}, 
+						{
+							"classId": 0,
+							"Id": 9,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 295,
+							"Property": "Next(PlayerID)",
+							"NewValue": "P0"
+						}, 
+						{
+							"classId": 0,
+							"Id": 10,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 295,
+							"Property": "DialogueState(Board)",
+							"NewValue": "NextPlayer"
+						}, 
+						{
+							"classId": 0,
+							"Id": 11,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 295,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 3
+						}, 
+						{
+							"classId": 0,
+							"Id": 12,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 373,
+							"Property": "Current(PlayerID)",
+							"NewValue": "P0"
+						}, 
+						{
+							"classId": 0,
+							"Id": 13,
+							"Type": "Property-Change",
+							"Subject": "P0",
+							"Timestamp": 373,
+							"Property": "Trick(Increase)",
+							"NewValue": true
+						}, 
+						{
+							"classId": 0,
+							"Id": 14,
+							"Type": "Property-Change",
+							"Subject": "P0",
+							"Timestamp": 373,
+							"Property": "Trick(Score)",
+							"NewValue": 0
+						}, 
+						{
+							"classId": 0,
+							"Id": 15,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 373,
+							"Property": "DialogueState(Board)",
+							"NewValue": "PlayPartner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 16,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 373,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 2
+						}, 
+						{
+							"classId": 0,
+							"Id": 17,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 374,
+							"Property": "Next(PlayerID)",
+							"NewValue": "P1"
+						}, 
+						{
+							"classId": 0,
+							"Id": 18,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 374,
+							"Property": "DialogueState(Board)",
+							"NewValue": "NextPlayer"
+						}, 
+						{
+							"classId": 0,
+							"Id": 19,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 374,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 3
+						}, 
+						{
+							"classId": 0,
+							"Id": 20,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 375,
+							"Property": "Current(PlayerID)",
+							"NewValue": "P1"
+						}, 
+						{
+							"classId": 0,
+							"Id": 21,
+							"Type": "Property-Change",
+							"Subject": "P1",
+							"Timestamp": 375,
+							"Property": "Trick(Increase)",
+							"NewValue": true
+						}, 
+						{
+							"classId": 0,
+							"Id": 22,
+							"Type": "Property-Change",
+							"Subject": "P1",
+							"Timestamp": 375,
+							"Property": "Trick(Score)",
+							"NewValue": 4
+						}, 
+						{
+							"classId": 0,
+							"Id": 23,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 375,
+							"Property": "DialogueState(Board)",
+							"NewValue": "PlayPartner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 24,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 375,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 3
+						}, 
+						{
+							"classId": 0,
+							"Id": 25,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 376,
+							"Property": "Next(PlayerID)",
+							"NewValue": "P2"
+						}, 
+						{
+							"classId": 0,
+							"Id": 26,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 376,
+							"Property": "DialogueState(Board)",
+							"NewValue": "NextPlayer"
+						}, 
+						{
+							"classId": 0,
+							"Id": 27,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 376,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 2
+						}, 
+						{
+							"classId": 0,
+							"Id": 28,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 377,
+							"Property": "Current(PlayerID)",
+							"NewValue": "P2"
+						}, 
+						{
+							"classId": 0,
+							"Id": 29,
+							"Type": "Property-Change",
+							"Subject": "P2",
+							"Timestamp": 377,
+							"Property": "Trick(Increase)",
+							"NewValue": false
+						}, 
+						{
+							"classId": 0,
+							"Id": 30,
+							"Type": "Property-Change",
+							"Subject": "P2",
+							"Timestamp": 377,
+							"Property": "Trick(Score)",
+							"NewValue": 4
+						}, 
+						{
+							"classId": 0,
+							"Id": 31,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 377,
+							"Property": "DialogueState(Board)",
+							"NewValue": "PlayPartner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 32,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 377,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 2
+						}, 
+						{
+							"classId": 0,
+							"Id": 33,
+							"Type": "Property-Change",
+							"Subject": "P3",
+							"Timestamp": 378,
+							"Property": "Trick(Increase)",
+							"NewValue": true
+						}, 
+						{
+							"classId": 0,
+							"Id": 34,
+							"Type": "Property-Change",
+							"Subject": "P3",
+							"Timestamp": 378,
+							"LinkedEmotions": ["Pride"],
+							"Property": "Trick(Score)",
+							"NewValue": 15
+						}, 
+						{
+							"classId": 0,
+							"Id": 35,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 378,
+							"Property": "DialogueState(Board)",
+							"NewValue": "PlaySelf"
+						}, 
+						{
+							"classId": 0,
+							"Id": 36,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 378,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 3
+						}, 
+						{
+							"classId": 0,
+							"Id": 37,
+							"Type": "Property-Change",
+							"Subject": "P3",
+							"Timestamp": 381,
+							"Property": "Trick(Increase)",
+							"NewValue": true
+						}, 
+						{
+							"classId": 0,
+							"Id": 38,
+							"Type": "Property-Change",
+							"Subject": "P3",
+							"Timestamp": 381,
+							"Property": "Trick(Score)",
+							"NewValue": 0
+						}, 
+						{
+							"classId": 0,
+							"Id": 39,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 381,
+							"Property": "DialogueState(Board)",
+							"NewValue": "PlaySelf"
+						}, 
+						{
+							"classId": 0,
+							"Id": 40,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 381,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 3
+						}]
+				},
+			"OtherAgents":
+				{
+					"dictionary": []
+				}
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "AutobiographicMemory.AM+PropertyChangeEvent, AutobiographicMemory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+		}, 
+		{
+			"TypeId": 1,
+			"ClassName": "RolePlayCharacter.RolePlayCharacterAsset, RolePlayCharacter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}

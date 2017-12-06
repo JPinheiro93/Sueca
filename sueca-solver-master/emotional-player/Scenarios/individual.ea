@@ -1,0 +1,189 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"Description": null,
+			"KnowledgeBase":
+				{
+					"Perspective": "P3",
+					"Knowledge":
+						{
+							"SELF":
+								{
+									"Dialogue(Style)": "A",
+									"Player(P0)": "Opponent",
+									"Player(P1)": "Partner",
+									"Player(P2)": "Opponent"
+								}
+						}
+				},
+			"AppraisalRules":
+				{
+					"AppraisalWeight": 1,
+					"Rules": [
+						{
+							"EventName": "Event(Property-Change, SELF, Game(End), LostDouble)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"Desirability": -10,
+							"Praiseworthiness": -10
+						}, 
+						{
+							"EventName": "Event(Property-Change, SELF, Game(End), LostQuad)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"Desirability": -10,
+							"Praiseworthiness": -10
+						}, 
+						{
+							"EventName": "Event(Property-Change, SELF, Game(End), LostSingle)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"Desirability": -10,
+							"Praiseworthiness": -10
+						}, 
+						{
+							"EventName": "Event(Property-Change, SELF, Game(End), WinDouble)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"Desirability": 10,
+							"Praiseworthiness": 10
+						}, 
+						{
+							"EventName": "Event(Property-Change, SELF, Game(End), WinQuad)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"Desirability": 10,
+							"Praiseworthiness": 10
+						}, 
+						{
+							"EventName": "Event(Property-Change, SELF, Game(End), WinSingle)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"Desirability": 10,
+							"Praiseworthiness": 10
+						}, 
+						{
+							"EventName": "Event(Property-Change, SELF, Session(End), Lost)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"Desirability": -10,
+							"Praiseworthiness": -10
+						}, 
+						{
+							"EventName": "Event(Property-Change, SELF, Session(End), Win)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"Desirability": 10,
+							"Praiseworthiness": 10
+						}, 
+						{
+							"EventName": "Event(Property-Change, SELF, Trick(Score), [score])",
+							"Conditions":
+								{
+									"Set": ["[score] >= 9", "Trick(Increase) = True"]
+								},
+							"Praiseworthiness": 6
+						}, 
+						{
+							"EventName": "Event(Property-Change, SELF, Trick(Score), [score])",
+							"Conditions":
+								{
+									"Set": ["[score] <= -9", "Trick(Increase) = True"]
+								},
+							"Praiseworthiness": -6
+						}, 
+						{
+							"EventName": "Event(Property-Change, SELF, Trick(Score), [score])",
+							"Conditions":
+								{
+									"Set": ["[score] >= 9", "Trick(Increase) = False"]
+								},
+							"Desirability": 6
+						}, 
+						{
+							"EventName": "Event(Property-Change, SELF, Trick(Score), [score])",
+							"Conditions":
+								{
+									"Set": ["[score] <= -9", "Trick(Increase) = False"]
+								},
+							"Desirability": -6
+						}, 
+						{
+							"EventName": "Event(Property-Change, [pointGiver], Trick(Score), [score])",
+							"Conditions":
+								{
+									"Set": ["[score] >= 9", "Player([pointGiver]) = Partner", "Trick(Increase) = True"]
+								},
+							"Praiseworthiness": 6
+						}, 
+						{
+							"EventName": "Event(Property-Change, [pointGiver], Trick(Score), [score])",
+							"Conditions":
+								{
+									"Set": ["[score] >= 9", "Player([pointGiver]) = Opponent"]
+								},
+							"Desirability": 6
+						}, 
+						{
+							"EventName": "Event(Property-Change, [pointGiver], Trick(Score), [score])",
+							"Conditions":
+								{
+									"Set": ["[score] <= -9", "Player([pointGiver]) = Opponent"]
+								},
+							"Desirability": -6
+						}, 
+						{
+							"EventName": "Event(Property-Change, [pointGiver], Trick(Score), [score])",
+							"Conditions":
+								{
+									"Set": ["[score] <= -9", "Player([pointGiver]) = Partner", "Trick(Increase) = True"]
+								},
+							"Praiseworthiness": -6
+						}, 
+						{
+							"EventName": "Event(Property-Change, [pointGiver], Trick(Score), [score])",
+							"Conditions":
+								{
+									"Set": ["[score] >= 9", "Player([pointGiver]) = Partner", "Trick(Increase) = False"]
+								},
+							"Desirability": 6
+						}, 
+						{
+							"EventName": "Event(Property-Change, [pointGiver], Trick(Score), [score])",
+							"Conditions":
+								{
+									"Set": ["[score] <= -9", "Player([pointGiver]) = Partner", "Trick(Increase) = False"]
+								},
+							"Desirability": -6
+						}]
+				},
+			"EmotionDispositions": [
+				{
+					"Emotion": "*",
+					"Decay": 9,
+					"Threshold": 1
+				}]
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "EmotionalAppraisal.EmotionalAppraisalAsset, EmotionalAppraisal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}

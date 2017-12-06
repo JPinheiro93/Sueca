@@ -1,0 +1,153 @@
+{
+	"root":
+		{
+			"classId": 1,
+			"KnowledgeBase":
+				{
+					"Perspective": "P1",
+					"Knowledge":
+						{
+							"SELF":
+								{
+									"Dialogue(Floor)": 3,
+									"Dialogue(Style)": "A",
+									"DialogueState(Board)": "Shuffle",
+									"My(Id)": 1,
+									"Player(P0)": "Opponent",
+									"Player(P1)": "Partner",
+									"Player(P2)": "Opponent",
+									"Player(P3)": "Partner"
+								}
+						}
+				},
+			"BodyName": "Individual",
+			"VoiceName": "male",
+			"EmotionalAppraisalAssetSource": "../..\\Scenarios\\individual.ea",
+			"EmotionalDecisionMakingSource": "../..\\Scenarios\\individual.edm",
+			"SocialImportanceAssetSource": null,
+			"CommeillFautAssetSource": null,
+			"EmotionalState":
+				{
+					"Mood": 0,
+					"initialTick": 0,
+					"EmotionalPool": [],
+					"AppraisalConfiguration":
+						{
+							"HalfLifeDecayConstant": 0.5,
+							"EmotionInfluenceOnMoodFactor": 0.3,
+							"MoodInfluenceOnEmotionFactor": 0.1,
+							"MinimumMoodValueForInfluencingEmotions": 0.5,
+							"EmotionalHalfLifeDecayTime": 15,
+							"MoodHalfLifeDecayTime": 60
+						}
+				},
+			"AutobiographicMemory":
+				{
+					"Tick": 16855,
+					"records": [
+						{
+							"classId": 0,
+							"Id": 1,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 16851,
+							"Property": "Player(P1)",
+							"NewValue": "Partner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 2,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 16851,
+							"Property": "Player(P2)",
+							"NewValue": "Opponent"
+						}, 
+						{
+							"classId": 0,
+							"Id": 3,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 16851,
+							"Property": "Player(P3)",
+							"NewValue": "Partner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 4,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 16851,
+							"Property": "Player(P0)",
+							"NewValue": "Opponent"
+						}, 
+						{
+							"classId": 0,
+							"Id": 5,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 16851,
+							"Property": "Dialogue(Style)",
+							"NewValue": "A"
+						}, 
+						{
+							"classId": 0,
+							"Id": 6,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 16851,
+							"Property": "My(Id)",
+							"NewValue": 1
+						}, 
+						{
+							"classId": 0,
+							"Id": 7,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 16852,
+							"Property": "DialogueState(Board)",
+							"NewValue": "SessionStart"
+						}, 
+						{
+							"classId": 0,
+							"Id": 8,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 16852,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 1
+						}, 
+						{
+							"classId": 0,
+							"Id": 9,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 16855,
+							"Property": "DialogueState(Board)",
+							"NewValue": "Shuffle"
+						}, 
+						{
+							"classId": 0,
+							"Id": 10,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 16855,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 3
+						}]
+				},
+			"OtherAgents":
+				{
+					"dictionary": []
+				}
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "AutobiographicMemory.AM+PropertyChangeEvent, AutobiographicMemory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+		}, 
+		{
+			"TypeId": 1,
+			"ClassName": "RolePlayCharacter.RolePlayCharacterAsset, RolePlayCharacter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}

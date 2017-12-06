@@ -1,0 +1,403 @@
+{
+	"root":
+		{
+			"classId": 1,
+			"KnowledgeBase":
+				{
+					"Perspective": "P2",
+					"Knowledge":
+						{
+							"SELF":
+								{
+									"Current(PlayerID)": "P3",
+									"Dialogue(Floor)": 3,
+									"Dialogue(Style)": "A",
+									"DialogueState(Board)": "PlayPartner",
+									"My(Id)": 2,
+									"Next(PlayerID)": "P3",
+									"Player(P0)": "Partner",
+									"Player(P1)": "Opponent",
+									"Player(P2)": "Partner",
+									"Player(P3)": "Opponent",
+									"Trick(Increase)": true,
+									"Trick(Score)": -15
+								}
+						}
+				},
+			"BodyName": "Individual",
+			"VoiceName": "male",
+			"EmotionalAppraisalAssetSource": "../..\\Scenarios\\individual.ea",
+			"EmotionalDecisionMakingSource": "../..\\Scenarios\\individual.edm",
+			"SocialImportanceAssetSource": null,
+			"CommeillFautAssetSource": null,
+			"EmotionalState":
+				{
+					"Mood": -1.5,
+					"initialTick": 442,
+					"EmotionalPool": [
+						{
+							"Intensity": 5,
+							"Decay": 9,
+							"Threshold": 1,
+							"CauseId": 34,
+							"EventName": "Event(Property-Change, P3, Trick(Score), -15)",
+							"EmotionType": "Distress",
+							"Valence": "Negative",
+							"AppraisalVariables": ["DESIRABILITY"],
+							"InfluenceMood": true
+						}],
+					"AppraisalConfiguration":
+						{
+							"HalfLifeDecayConstant": 0.5,
+							"EmotionInfluenceOnMoodFactor": 0.3,
+							"MoodInfluenceOnEmotionFactor": 0.1,
+							"MinimumMoodValueForInfluencingEmotions": 0.5,
+							"EmotionalHalfLifeDecayTime": 15,
+							"MoodHalfLifeDecayTime": 60
+						}
+				},
+			"AutobiographicMemory":
+				{
+					"Tick": 442,
+					"records": [
+						{
+							"classId": 0,
+							"Id": 1,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 337,
+							"Property": "Player(P2)",
+							"NewValue": "Partner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 2,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 337,
+							"Property": "Player(P3)",
+							"NewValue": "Opponent"
+						}, 
+						{
+							"classId": 0,
+							"Id": 3,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 337,
+							"Property": "Player(P0)",
+							"NewValue": "Partner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 4,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 337,
+							"Property": "Player(P1)",
+							"NewValue": "Opponent"
+						}, 
+						{
+							"classId": 0,
+							"Id": 5,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 337,
+							"Property": "Dialogue(Style)",
+							"NewValue": "A"
+						}, 
+						{
+							"classId": 0,
+							"Id": 6,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 337,
+							"Property": "My(Id)",
+							"NewValue": 2
+						}, 
+						{
+							"classId": 0,
+							"Id": 7,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 338,
+							"Property": "DialogueState(Board)",
+							"NewValue": "SessionStart"
+						}, 
+						{
+							"classId": 0,
+							"Id": 8,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 338,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 2
+						}, 
+						{
+							"classId": 0,
+							"Id": 9,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 339,
+							"Property": "Next(PlayerID)",
+							"NewValue": "P0"
+						}, 
+						{
+							"classId": 0,
+							"Id": 10,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 339,
+							"Property": "DialogueState(Board)",
+							"NewValue": "NextPlayer"
+						}, 
+						{
+							"classId": 0,
+							"Id": 11,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 339,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 3
+						}, 
+						{
+							"classId": 0,
+							"Id": 12,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 420,
+							"Property": "Current(PlayerID)",
+							"NewValue": "P0"
+						}, 
+						{
+							"classId": 0,
+							"Id": 13,
+							"Type": "Property-Change",
+							"Subject": "P0",
+							"Timestamp": 420,
+							"Property": "Trick(Increase)",
+							"NewValue": true
+						}, 
+						{
+							"classId": 0,
+							"Id": 14,
+							"Type": "Property-Change",
+							"Subject": "P0",
+							"Timestamp": 420,
+							"Property": "Trick(Score)",
+							"NewValue": 0
+						}, 
+						{
+							"classId": 0,
+							"Id": 15,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 420,
+							"Property": "DialogueState(Board)",
+							"NewValue": "PlayPartner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 16,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 420,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 2
+						}, 
+						{
+							"classId": 0,
+							"Id": 17,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 421,
+							"Property": "Next(PlayerID)",
+							"NewValue": "P1"
+						}, 
+						{
+							"classId": 0,
+							"Id": 18,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 421,
+							"Property": "DialogueState(Board)",
+							"NewValue": "NextPlayer"
+						}, 
+						{
+							"classId": 0,
+							"Id": 19,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 421,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 3
+						}, 
+						{
+							"classId": 0,
+							"Id": 20,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 428,
+							"Property": "Current(PlayerID)",
+							"NewValue": "P1"
+						}, 
+						{
+							"classId": 0,
+							"Id": 21,
+							"Type": "Property-Change",
+							"Subject": "P1",
+							"Timestamp": 428,
+							"Property": "Trick(Increase)",
+							"NewValue": true
+						}, 
+						{
+							"classId": 0,
+							"Id": 22,
+							"Type": "Property-Change",
+							"Subject": "P1",
+							"Timestamp": 428,
+							"Property": "Trick(Score)",
+							"NewValue": -4
+						}, 
+						{
+							"classId": 0,
+							"Id": 23,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 428,
+							"Property": "DialogueState(Board)",
+							"NewValue": "PlayPartner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 24,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 428,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 3
+						}, 
+						{
+							"classId": 0,
+							"Id": 25,
+							"Type": "Property-Change",
+							"Subject": "P2",
+							"Timestamp": 429,
+							"Property": "Trick(Increase)",
+							"NewValue": false
+						}, 
+						{
+							"classId": 0,
+							"Id": 26,
+							"Type": "Property-Change",
+							"Subject": "P2",
+							"Timestamp": 429,
+							"Property": "Trick(Score)",
+							"NewValue": -4
+						}, 
+						{
+							"classId": 0,
+							"Id": 27,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 429,
+							"Property": "DialogueState(Board)",
+							"NewValue": "PlaySelf"
+						}, 
+						{
+							"classId": 0,
+							"Id": 28,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 429,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 2
+						}, 
+						{
+							"classId": 0,
+							"Id": 29,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 441,
+							"Property": "Next(PlayerID)",
+							"NewValue": "P3"
+						}, 
+						{
+							"classId": 0,
+							"Id": 30,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 441,
+							"Property": "DialogueState(Board)",
+							"NewValue": "NextPlayer"
+						}, 
+						{
+							"classId": 0,
+							"Id": 31,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 441,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 2
+						}, 
+						{
+							"classId": 0,
+							"Id": 32,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 442,
+							"Property": "Current(PlayerID)",
+							"NewValue": "P3"
+						}, 
+						{
+							"classId": 0,
+							"Id": 33,
+							"Type": "Property-Change",
+							"Subject": "P3",
+							"Timestamp": 442,
+							"Property": "Trick(Increase)",
+							"NewValue": true
+						}, 
+						{
+							"classId": 0,
+							"Id": 34,
+							"Type": "Property-Change",
+							"Subject": "P3",
+							"Timestamp": 442,
+							"LinkedEmotions": ["Distress"],
+							"Property": "Trick(Score)",
+							"NewValue": -15
+						}, 
+						{
+							"classId": 0,
+							"Id": 35,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 442,
+							"Property": "DialogueState(Board)",
+							"NewValue": "PlayPartner"
+						}, 
+						{
+							"classId": 0,
+							"Id": 36,
+							"Type": "Property-Change",
+							"Subject": "Board",
+							"Timestamp": 442,
+							"Property": "Dialogue(Floor)",
+							"NewValue": 3
+						}]
+				},
+			"OtherAgents":
+				{
+					"dictionary": []
+				}
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "AutobiographicMemory.AM+PropertyChangeEvent, AutobiographicMemory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+		}, 
+		{
+			"TypeId": 1,
+			"ClassName": "RolePlayCharacter.RolePlayCharacterAsset, RolePlayCharacter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}
